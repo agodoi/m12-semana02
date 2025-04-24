@@ -73,9 +73,12 @@ cenários mais complexos
 
 ### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa. Quais os cuidados para evitar conflitos?
 
-Considere que você tem o mesmo projeto no Github, numa pasta DOCUMENTOS e numa pasta PROJETOS
+#### No dia D+0 você cria o projeto no PC pessoal e sobe uma cópia no Github.
+#### No dia D+1 você cria e apaga arquivos do seu projeto.
+#### No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
 
-### Quais os comandos ```git``` básicos e obrigatórios para fazer alterações em qualquer arquivo do seu projeto?
+### Quais os comandos ```git``` básicos e obrigatórios para fazer essas alterações e manter tudo sincronizado no menor tempo possível?
+
 
 
 
