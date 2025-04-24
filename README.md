@@ -50,15 +50,16 @@ git config --global core.editor "path do executável do novo editor"
 | `git status`               | Mostra o estado atual dos arquivos (modificados, staged, etc.).          |
 | `git add <arquivo>`        | Adiciona arquivos ao "staging area" (preparar para commit).              |
 | `git commit -m "mensagem"` | Salva as mudanças com uma mensagem descritiva.                           |
-| `git push`                 | Envia os commits locais para o repositório remoto (como o GitHub).       |
-| `git pull`                 | Atualiza o repositório local com as mudanças do repositório remoto.      |
-| `git fetch`                | Baixa as mudanças do repositório remoto sem aplicar ao seu diretório.    |
+| `git push`                 | Envia os commits locais para o repositório remoto.                       |
+| `git pull`                 | Baixa o repositório remoto e atualiza o repositório local.               |
+| `git fetch`                | Equivale ao PULL, porém baixa as mudanças do repositório remoto sem aplicar ao seu diretório.    |
 | `git merge <branch>`       | Junta uma branch ao branch atual.                                        |
 | `git branch`               | Lista as branches existentes no repositório.                             |
 | `git checkout <branch>`    | Muda para outra branch.                                                  |
 | `git log`                  | Mostra o histórico de commits.                                           |
 | `git diff`                 | Mostra as diferenças entre arquivos modificados e os commits anteriores. |
 | `git remote -v`            | Lista os repositórios remotos vinculados ao projeto local.               |
+| `git config --global`      | Define configurações globais do Git (nome, e-mail, editor, etc.).        |
 
 
 
@@ -71,13 +72,14 @@ cenários mais complexos
 
 ## Um repositório remoto / Vários respositórios locais
 
-### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa. Quais os cuidados para evitar conflitos?
+### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa.
 
-#### No dia D+0 você cria o projeto no PC pessoal e sobe uma cópia no Github.
-#### No dia D+1 você cria e apaga arquivos do seu projeto.
-#### No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
+#### (a) No dia D+0 você cria o projeto no PC pessoal e sobe uma cópia no Github.
+#### (b) No dia D+1 você cria e apaga arquivos do seu projeto usando seu PC pessoal.
+#### (c) No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
 
-### Quais os comandos ```git``` básicos e obrigatórios para fazer essas alterações e manter tudo sincronizado no menor tempo possível?
+### Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? Coloque-os em ordem e justifique. Como você resolve os conflitos usando o VSCode?
+
 
 
 
