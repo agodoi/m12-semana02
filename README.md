@@ -44,6 +44,7 @@ git config --global core.editor "path do executável do novo editor"
 | `touch <nome_do_arquivo>`  | Cria um novo arquivo vazio.                                              |
 | `cd /c`                    | Entra no disco C:\ (útil no Git Bash ou terminal Unix-like no Windows).  |
 | `ls`                       | Lista arquivos e diretórios do diretório atual.                          |
+| `ls -a`                    | Lista **todos** os arquivos, incluindo ocultos (ex: `.git`).             |
 | `git init`                 | Inicializa um novo repositório Git local.                                |
 | `git clone <url>`          | Clona um repositório remoto para o ambiente local.                       |
 | `git status`               | Mostra o estado atual dos arquivos (modificados, staged, etc.).          |
