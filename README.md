@@ -59,3 +59,11 @@ git config --global core.editor "path do executável do novo editor"
 | `git log`                  | Mostra o histórico de commits.                                           |
 | `git diff`                 | Mostra as diferenças entre arquivos modificados e os commits anteriores. |
 | `git remote -v`            | Lista os repositórios remotos vinculados ao projeto local.               |
+
+
+
+colocar uma tabela enorme como um manual
+criar 5 cenários de conflito e pedir para os alunos resolverem
+cenários mais complexos
+
+
