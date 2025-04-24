@@ -35,5 +35,25 @@ Na tela a seguir, você tem outros códigos que verificam as suas configuraçõe
 git config --global core.editor "path do executável do novo editor"
 ```
 
+### (2) Comandos do Git
 
-
+| Comando                     | Descrição                                                                 |
+|----------------------------|---------------------------------------------------------------------------|
+| `pwd`                      | Mostra o diretório atual (onde você está no terminal).                    |
+| `mkdir <nome>`             | Cria uma nova pasta/diretório.                                           |
+| `touch <nome_do_arquivo>`  | Cria um novo arquivo vazio.                                              |
+| `cd /c`                    | Entra no disco C:\ (útil no Git Bash ou terminal Unix-like no Windows).  |
+| `ls`                       | Lista arquivos e diretórios do diretório atual.                          |
+| `git init`                 | Inicializa um novo repositório Git local.                                |
+| `git clone <url>`          | Clona um repositório remoto para o ambiente local.                       |
+| `git status`               | Mostra o estado atual dos arquivos (modificados, staged, etc.).          |
+| `git add <arquivo>`        | Adiciona arquivos ao "staging area" (preparar para commit).              |
+| `git commit -m "mensagem"` | Salva as mudanças com uma mensagem descritiva.                           |
+| `git push`                 | Envia os commits locais para o repositório remoto (como o GitHub).       |
+| `git pull`                 | Atualiza o repositório local com as mudanças do repositório remoto.      |
+| `git fetch`                | Baixa as mudanças do repositório remoto sem aplicar ao seu diretório.    |
+| `git merge <branch>`       | Junta uma branch ao branch atual.                                        |
+| `git branch`               | Lista as branches existentes no repositório.                             |
+| `git checkout <branch>`    | Muda para outra branch.                                                  |
+| `git log`                  | Mostra o histórico de commits.                                           |
+| `git diff`                 | Mostra as diferenças entre arquivos modificados e os commits anteriores. |
