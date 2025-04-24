@@ -66,4 +66,8 @@ colocar uma tabela enorme como um manual
 criar 5 cenários de conflito e pedir para os alunos resolverem
 cenários mais complexos
 
+## Um repositório remoto / Vários respositórios locais
+
+### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa
+
 
