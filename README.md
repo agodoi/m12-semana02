@@ -73,5 +73,11 @@ cenários mais complexos
 
 ### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa. Quais os cuidados para evitar conflitos?
 
+Considere que você tem o mesmo projeto no Github, numa pasta DOCUMENTOS e numa pasta PROJETOS
+
+### Quais os comandos ```git``` básicos e obrigatórios para fazer alterações em qualquer arquivo do seu projeto?
+
+
+
 ### Dados os passos abaixo, organize-os em ordem (tentar fazer no kahoot com um tempo grande. Fazer em dupla)
 
