@@ -58,3 +58,4 @@ git config --global core.editor "path do executável do novo editor"
 | `git checkout <branch>`    | Muda para outra branch.                                                  |
 | `git log`                  | Mostra o histórico de commits.                                           |
 | `git diff`                 | Mostra as diferenças entre arquivos modificados e os commits anteriores. |
+| `git remote -v`            | Lista os repositórios remotos vinculados ao projeto local.               |
