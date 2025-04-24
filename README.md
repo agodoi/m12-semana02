@@ -16,5 +16,24 @@ Git --> é o sistema de controle de versões mais popular, que documenta e armaz
 Github --> é uma rede social de projetos técnicos.
 
 
+## (1) Configurando o Git
+
+### 1.1 Comandos iniciais para Commits
+Abra o Git, e digite 
+
+```
+git config --global user.name "seu nome"
+```
+
+```
+git config --global user.email "seu email"
+```
+
+Na tela a seguir, você tem outros códigos que verificam as suas configurações e se precisar mudar o Editor de Textos Padrão faça:
+
+```
+git config --global core.editor "path do executável do novo editor"
+```
+
 
 
