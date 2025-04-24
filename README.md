@@ -66,6 +66,12 @@ colocar uma tabela enorme como um manual
 criar 5 cenários de conflito e pedir para os alunos resolverem
 cenários mais complexos
 
+
+# PRÁTICA
+
 ## Um repositório remoto / Vários respositórios locais
 
 ### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa. Quais os cuidados para evitar conflitos?
+
+### Dados os passos abaixo, organize-os em ordem (tentar fazer no kahoot com um tempo grande. Fazer em dupla)
+
