@@ -94,6 +94,7 @@ git config --global core.editor "path do executável do novo editor"
 
 **Contexto:** você e um(a) colega estão desenvolvendo um site institucional. O repositório principal está hospedado no GitHub. Você criará uma branch para trabalhar na página de contato e sua colega criará uma branch para a página sobre nós. Ao final, vocês deverão unir tudo na branch principal (main), usando boas práticas colaborativas.
 
+
 **ETAPA 1 - Organização inicial**
 
 **(a)** Crie um novo repositório no GitHub.
@@ -134,9 +135,11 @@ Ambos devem:
 
 ## ✅ Entregáveis
 
-**(1)** Prints do git log, tela de conflito no VS Code e merges.
+**(1)** Sequência de comandos git de cada etapa ou prints do git log.
 
-**(2)** Print da tela do GitHub com os pull requests e merges aprovados.
+**(2)** Prints da tela de conflito no VS Code e merges.
+
+**(3)** Print da tela do GitHub com os pull requests e merges aprovados.
 
 **(3)** Uma apresentação explicando:
 
