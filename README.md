@@ -94,7 +94,7 @@ git config --global core.editor "path do executável do novo editor"
 ---
 ### PRÁTICA (2):
 
-Vamos simular um cenário profissional onde diferentes funcionalidades são desenvolvidas em branches separadas, integradas via pull request, com o uso consciente de git merge, git diff, resolução de conflitos simples e boas práticas com mensagens de commit.
+**Objetivos:** vamos simular um cenário profissional onde diferentes funcionalidades são desenvolvidas em branches separadas, integradas via pull request, com o uso consciente de git merge, git diff, resolução de conflitos simples e boas práticas com mensagens de commit.
 
 **Contexto:** você e um(a) colega estão desenvolvendo um site institucional. O repositório principal está hospedado no GitHub. Você criará uma branch para trabalhar na página de contato e sua colega criará uma branch para a página sobre nós. Ao final, vocês deverão unir tudo na branch principal (main), usando boas práticas colaborativas.
 
@@ -161,11 +161,13 @@ Ambos devem:
 ---
 ### PRÁTICA (3): manipulando o histórico com responsabilidade (Git avançado)
 
-### Você está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
+**Objetivos**: aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
+
+**Contexto:** ocê está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
 
 ## ✅ Entregáveis
 
-**(1)** Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
+
 
 **(2)** Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
 
