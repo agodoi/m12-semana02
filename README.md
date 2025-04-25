@@ -57,6 +57,7 @@ git config --global core.editor "path do executável do novo editor"
 | `git branch`               | Lista as branches existentes no repositório.                             |
 | `git checkout <branch>`    | Muda para outra branch.                                                  |
 | `git log`                  | Mostra o histórico de commits.                                           |
+| `git log --oneline`        | Exibe o histórico de commits em formato compacto e simplificado.         |
 | `git diff`                 | Mostra as diferenças entre arquivos modificados e os commits anteriores. |
 | `git remote -v`            | Lista os repositórios remotos vinculados ao projeto local.               |
 | `git config --global`      | Define configurações globais do Git (nome, e-mail, editor, etc.).        |
@@ -68,9 +69,7 @@ criar 5 cenários de conflito e pedir para os alunos resolverem
 cenários mais complexos
 
 
-# PRÁTICA
-
-## Um repositório remoto / Vários respositórios locais
+## PRÁTICA (1): um repositório remoto / vários respositórios locais
 
 ### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa.
 
@@ -80,9 +79,27 @@ cenários mais complexos
 
 ### Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? Coloque-os em ordem e justifique. Como você resolve os conflitos usando o VSCode?
 
+### O grupo precisa fazer as simulações ao vivo
 
 
+## Prática Guiada (2): manipulando o Histórico com Responsabilidade (Git Avançado)
+
+### Você está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
 
 
-### Dados os passos abaixo, organize-os em ordem (tentar fazer no kahoot com um tempo grande. Fazer em dupla)
+### Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
+
+Responda:
+#### (a) Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
+#### (b) Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
+#### (c) Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
+#### (d) Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
+#### (e) Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
+#### (f) Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
+#### (g) Em qual situação o comando git reset --soft é preferível ao git revert?
+#### (h) Quando o git revert é a melhor opção em projetos colaborativos?
+#### (i) Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
+#### (j) Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
+#### (k) O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
+
 
