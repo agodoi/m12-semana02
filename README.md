@@ -169,15 +169,23 @@ Ambos devem:
 ## ✅ Entregáveis
 
 **(1)** Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
+
 **(2)** Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
+
 **(3)** Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
+
 **(4)** Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
+
 **(5)** Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
+
 **(6)** Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
+
 **(7)** Em qual situação o comando git reset --soft é preferível ao git revert?
+
 **(8)** Quando o git revert é a melhor opção em projetos colaborativos?
+
 **(9)** Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
+
 **(10)** Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
+
 **(11)** O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
-
-
