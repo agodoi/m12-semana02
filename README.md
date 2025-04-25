@@ -79,12 +79,12 @@ git config --global core.editor "path do executável do novo editor"
 **(b)** No dia D+1 você cria e apaga arquivos do seu projeto usando seu PC pessoal.
 **(c)** No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
 
-**Faça ou responda**: 
+## ✅ Entregáveis
 
-**(1)** Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? 
+**(1)** Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? Prepare um log explicativo
 **(2)** Coloque-os em ordem e justifique. 
 **(3)** Como você resolve os conflitos visualmente usando o VSCode?
-**(4)** O grupo precisa fazer as simulações ao vivo
+**(4)** O grupo precisa fazer essa simulações ao vivo
 
 ---
 ### PRÁTICA (2):
@@ -121,16 +121,16 @@ Ambos devem:
 
 ## ✅ Entregáveis
 
-* Prints do git log, tela de conflito no VS Code e merges.
-* Print da tela do GitHub com os pull requests e merges aprovados.
-* Uma apresentação explicando:
-  * Para que serve uma branch.
-  * Diferença entre merge automático e com conflito.
-  * Como o GitHub ajuda na integração entre times.
-  * Qual foi a principal vantagem de usar branches para dividir tarefas entre colegas?
-  * O que torna o uso de pull request mais seguro que apenas fazer git push direto na main?
-  * O que causou o conflito de merge e como você resolveu?
-  * Quais cuidados você tomaria numa equipe maior, com mais pessoas fazendo commits ao mesmo tempo?
+**(1)** Prints do git log, tela de conflito no VS Code e merges.
+**(2)** Print da tela do GitHub com os pull requests e merges aprovados.
+**(3)** Uma apresentação explicando:
+  **(3.1)** Para que serve uma branch.
+  **(3.2)** Diferença entre merge automático e com conflito.
+  **(3.3)** Como o GitHub ajuda na integração entre times.
+  **(3.4)** Qual foi a principal vantagem de usar branches para dividir tarefas entre colegas?
+  **(3.5)** O que torna o uso de pull request mais seguro que apenas fazer git push direto na main?
+  **(3.6)** O que causou o conflito de merge e como você resolveu?
+  **(3.7)** Quais cuidados você tomaria numa equipe maior, com mais pessoas fazendo commits ao mesmo tempo?
 
 ---
 ### PRÁTICA (3): manipulando o histórico com responsabilidade (Git avançado)
@@ -138,19 +138,20 @@ Ambos devem:
 ### Você está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
 
 
-### Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits e responder:
+### Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
 
+## ✅ Entregáveis
 
-#### (a) Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
-#### (b) Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
-#### (c) Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
-#### (d) Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
-#### (e) Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
-#### (f) Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
-#### (g) Em qual situação o comando git reset --soft é preferível ao git revert?
-#### (h) Quando o git revert é a melhor opção em projetos colaborativos?
-#### (i) Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
-#### (j) Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
-#### (k) O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
+#### (1) Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
+#### (2) Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
+#### (3) Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
+#### (4) Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
+#### (5) Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
+#### (6) Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
+#### (7) Em qual situação o comando git reset --soft é preferível ao git revert?
+#### (8) Quando o git revert é a melhor opção em projetos colaborativos?
+#### (9) Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
+#### (10) Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
+#### (11) O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
 
 
