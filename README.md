@@ -17,7 +17,6 @@ Em ambos, você pode trabalhar em equipe, formando uma única versão estável d
 
 ## (1) Configurando o Git
 
-### 1.1 Comandos iniciais para Commits
 Abra o Git, e digite 
 
 ```
@@ -32,7 +31,7 @@ git config --global user.email "seu email"
 git config --global core.editor "path do executável do novo editor"
 ```
 
-### (2) Comandos do Git
+## (2) Comandos do Git
 
 | Comando                     | Descrição                                                                 |
 |----------------------------|---------------------------------------------------------------------------|
