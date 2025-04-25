@@ -61,6 +61,9 @@ git config --global core.editor "path do executável do novo editor"
 | `git diff`                 | Mostra as diferenças entre arquivos modificados e os commits anteriores. |
 | `git remote -v`            | Lista os repositórios remotos vinculados ao projeto local.               |
 | `git config --global`      | Define configurações globais do Git (nome, e-mail, editor, etc.).        |
+| `git rebase -i HEAD~N`     | Edita interativamente os últimos N commits (squash, reorder, etc.).      |
+| `git reset --soft HEAD~1`  | Desfaz o último commit, mantendo as alterações no staging.               |
+| `git checkout HEAD~2`      | Acessa o estado do projeto como estava dois commits atrás.               |
 
 
 
