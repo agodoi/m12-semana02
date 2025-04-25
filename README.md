@@ -63,7 +63,7 @@ git config --global core.editor "path do executável do novo editor"
 
 
 ---
-### PRÁTICA (1): um repositório remoto com vários respositórios locais (Git básico)
+### PRÁTICA NÍVEL 1: um repositório remoto com vários respositórios locais (Git básico)
 
 ### Fazer em quatro pessoas
 
@@ -88,7 +88,7 @@ git config --global core.editor "path do executável do novo editor"
 **(4)** O grupo precisa fazer essa simulações ao vivo
 
 ---
-### PRÁTICA (2):
+### PRÁTICA NÍVEL 2:
 
 **Objetivos:** vamos simular um cenário profissional onde diferentes funcionalidades são desenvolvidas em branches separadas, integradas via pull request, com o uso consciente de git merge, git diff, resolução de conflitos simples e boas práticas com mensagens de commit.
 
@@ -155,7 +155,7 @@ Ambos devem:
   **(3.7)** Quais cuidados você tomaria numa equipe maior, com mais pessoas fazendo commits ao mesmo tempo?
 
 ---
-### PRÁTICA (3): manipulando o histórico com responsabilidade (Git avançado)
+### PRÁTICA NÍVEL 3: manipulando o histórico com responsabilidade (Git avançado)
 
 **Objetivos**: aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
 
