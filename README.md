@@ -68,7 +68,7 @@ colocar uma tabela enorme como um manual
 criar 5 cenários de conflito e pedir para os alunos resolverem
 cenários mais complexos
 
-
+---
 ## PRÁTICA (1): um repositório remoto / vários respositórios locais
 
 ### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa.
@@ -81,7 +81,7 @@ cenários mais complexos
 
 ### O grupo precisa fazer as simulações ao vivo
 
-
+---
 ## PRÁTICA (2): manipulando o histórico com responsabilidade (Git Avançado)
 
 ### Você está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
