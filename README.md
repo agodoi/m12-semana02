@@ -163,29 +163,28 @@ Ambos devem:
 
 ### Você está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
 
-
-### Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
-
 ## ✅ Entregáveis
 
-**(1)** Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
+**(1)** Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
 
-**(2)** Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
+**(2)** Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
 
-**(3)** Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
+**(3)** Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
 
-**(4)** Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
+**(4)** Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
 
-**(5)** Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
+**(5)** Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
 
-**(6)** Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
+**(6)** Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
 
-**(7)** Em qual situação o comando git reset --soft é preferível ao git revert?
+**(7)** Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
 
-**(8)** Quando o git revert é a melhor opção em projetos colaborativos?
+**(8)** Em qual situação o comando git reset --soft é preferível ao git revert?
 
-**(9)** Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
+**(9)** Quando o git revert é a melhor opção em projetos colaborativos?
 
-**(10)** Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
+**(10)** Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
 
-**(11)** O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
+**(11)** Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
+
+**(12)** O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
