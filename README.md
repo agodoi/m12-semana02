@@ -76,14 +76,19 @@ git config --global core.editor "path do executável do novo editor"
 **Contexto:** considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa.
 
 **(a)** No dia D+0 você cria o projeto no PC pessoal e sobe uma cópia no Github.
+
 **(b)** No dia D+1 você cria e apaga arquivos do seu projeto usando seu PC pessoal.
+
 **(c)** No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
 
 ## ✅ Entregáveis
 
 **(1)** Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? Prepare um log explicativo
+
 **(2)** Coloque-os em ordem e justifique. 
+
 **(3)** Como você resolve os conflitos visualmente usando o VSCode?
+
 **(4)** O grupo precisa fazer essa simulações ao vivo
 
 ---
@@ -94,6 +99,7 @@ Vamos simular um cenário profissional onde diferentes funcionalidades são dese
 **Contexto:** você e um(a) colega estão desenvolvendo um site institucional. O repositório principal está hospedado no GitHub. Você criará uma branch para trabalhar na página de contato e sua colega criará uma branch para a página sobre nós. Ao final, vocês deverão unir tudo na branch principal (main), usando boas práticas colaborativas.
 
 **ETAPA 1 - Organização inicial**
+
 **(a)** Crie um novo repositório no GitHub.
 
 **(b)** Clone esse repositório em duas máquinas diferentes (ou duas pastas distintas, simulando dois devs).
@@ -162,16 +168,16 @@ Ambos devem:
 
 ## ✅ Entregáveis
 
-#### (1) Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
-#### (2) Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
-#### (3) Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
-#### (4) Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
-#### (5) Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
-#### (6) Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
-#### (7) Em qual situação o comando git reset --soft é preferível ao git revert?
-#### (8) Quando o git revert é a melhor opção em projetos colaborativos?
-#### (9) Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
-#### (10) Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
-#### (11) O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
+**(1)** Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
+**(2)** Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
+**(3)** Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
+**(4)** Em que cenário o uso de stash pode evitar perda de produtividade durante o desenvolvimento?
+**(5)** Por que o git cherry-pick é útil quando precisamos aplicar uma correção feita em uma branch para outra?
+**(6)** Qual o risco de usar cherry-pick em vez de merge para transferir commits entre branches?
+**(7)** Em qual situação o comando git reset --soft é preferível ao git revert?
+**(8)** Quando o git revert é a melhor opção em projetos colaborativos?
+**(9)** Quais são as principais diferenças entre reset e revert em termos de efeito no histórico de commits?
+**(10)** Como o VS Code pode ser utilizado para resolver conflitos de merge de forma visual?
+**(11)** O que pode acontecer se um rebase for feito depois de um push já realizado para o GitHub? Como evitar esse problema?
 
 
