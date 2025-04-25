@@ -77,7 +77,7 @@ cenários mais complexos
 #### (b) No dia D+1 você cria e apaga arquivos do seu projeto usando seu PC pessoal.
 #### (c) No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
 
-### Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? Coloque-os em ordem e justifique. Como você resolve os conflitos usando o VSCode?
+### Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? Coloque-os em ordem e justifique. Como você resolve os conflitos visualmente usando o VSCode?
 
 ### O grupo precisa fazer as simulações ao vivo
 
