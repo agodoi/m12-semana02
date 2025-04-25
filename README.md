@@ -82,14 +82,14 @@ cenários mais complexos
 ### O grupo precisa fazer as simulações ao vivo
 
 
-## Prática Guiada (2): manipulando o Histórico com Responsabilidade (Git Avançado)
+## PRÁTICA (2): manipulando o histórico com responsabilidade (Git Avançado)
 
 ### Você está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
 
 
-### Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits.
+### Aplicar comandos avançados do Git — como rebase, stash, cherry-pick, reset e revert — em um cenário colaborativo simulado, compreendendo os riscos e benefícios de manipular o histórico de commits e responder:
 
-Responda:
+
 #### (a) Por que é importante limpar e organizar o histórico de commits antes de enviar o código para o repositório remoto?
 #### (b) Em que situações o git rebase -i pode ser mais vantajoso do que o uso do merge?
 #### (c) Qual é a utilidade do comando git stash em um fluxo de trabalho ágil?
