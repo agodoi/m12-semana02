@@ -95,41 +95,61 @@ Vamos simular um cenário profissional onde diferentes funcionalidades são dese
 
 **ETAPA 1 - Organização inicial**
 **(a)** Crie um novo repositório no GitHub.
+
 **(b)** Clone esse repositório em duas máquinas diferentes (ou duas pastas distintas, simulando dois devs).
+
 **(c)** Crie a estrutura inicial do site (ex: index.html, style.css) e suba para a branch main.
 
 **ETAPA 2 - Trabalho em branches separadas**
+
 **(d)** Em dupla, crie uma branch chamada **feature/contato** e a outra dupla cria a branch **feature/sobre-nos**.
 Ambos devem:
+
 **(e)** Criar seus respectivos arquivos HTML.
+
 **(f)** Fazer ao menos 2 commits com mensagens claras.
+
 **(g)** Usar git log --oneline para revisar o histórico.
+
 **(h)** Subir a branch para o GitHub com git push -u origin <nome-da-branch>.
 
 **ETAPA 3 - Integração no GitHub (Pull Request)**
 
 **(i)** Cada dupla abre um pull request no GitHub para a branch main.
+
 **(j)** A outra dupla faz a revisão do PR. 
+
 **(k)** Se não houver conflitos, aceita e faz o merge pelo GitHub.
 
 **ETAPA 4 - Simulando um conflito e resolvendo no VS Code**
 
 **(l)** Ambas duplas alteram a mesma linha no arquivo style.css, em suas branches locais.
+
 **(m)** Uma dupla faz merge com main.
+
 **(n)** A outra, ao tentar o merge, terá um conflito. Resolva o conflito com o editor de conflitos do VS Code.
 
 
 ## ✅ Entregáveis
 
 **(1)** Prints do git log, tela de conflito no VS Code e merges.
+
 **(2)** Print da tela do GitHub com os pull requests e merges aprovados.
+
 **(3)** Uma apresentação explicando:
+
   **(3.1)** Para que serve uma branch.
+  
   **(3.2)** Diferença entre merge automático e com conflito.
+  
   **(3.3)** Como o GitHub ajuda na integração entre times.
+  
   **(3.4)** Qual foi a principal vantagem de usar branches para dividir tarefas entre colegas?
+  
   **(3.5)** O que torna o uso de pull request mais seguro que apenas fazer git push direto na main?
+  
   **(3.6)** O que causou o conflito de merge e como você resolveu?
+  
   **(3.7)** Quais cuidados você tomaria numa equipe maior, com mais pessoas fazendo commits ao mesmo tempo?
 
 ---
