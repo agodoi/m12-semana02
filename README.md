@@ -66,26 +66,74 @@ git config --global core.editor "path do executável do novo editor"
 | `git checkout HEAD~2`      | Acessa o estado do projeto como estava dois commits atrás.               |
 
 
-
-colocar uma tabela enorme como um manual
-criar 5 cenários de conflito e pedir para os alunos resolverem
-cenários mais complexos
-
 ---
 ### PRÁTICA (1): um repositório remoto com vários respositórios locais (Git básico)
 
-### Considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa.
+### Fazer em quatro pessoas
 
-#### (a) No dia D+0 você cria o projeto no PC pessoal e sobe uma cópia no Github.
-#### (b) No dia D+1 você cria e apaga arquivos do seu projeto usando seu PC pessoal.
-#### (c) No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
+**Objetivo**: vamos brincar com comandos básicos de Git
 
-### Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? Coloque-os em ordem e justifique. Como você resolve os conflitos visualmente usando o VSCode?
+**Contexto:** considere que você tem um repositório no Github e deseja desenvolvê-lo no PC pessoal e no computador da empresa.
 
-### O grupo precisa fazer as simulações ao vivo
+**(a)** No dia D+0 você cria o projeto no PC pessoal e sobe uma cópia no Github.
+**(b)** No dia D+1 você cria e apaga arquivos do seu projeto usando seu PC pessoal.
+**(c)** No D+2 você cria e apaga arquivos do seu projeto usando o PC da empresa.
+
+**Faça ou responda**: 
+
+**(1)** Quais os comandos ```git``` básicos e obrigatórios de cada etapa (a), (b) e (c) para fazer essas alterações, evitar conflitos e manter tudo sincronizado no menor tempo possível? 
+**(2)** Coloque-os em ordem e justifique. 
+**(3)** Como você resolve os conflitos visualmente usando o VSCode?
+**(4)** O grupo precisa fazer as simulações ao vivo
 
 ---
-### PRÁTICA (2): manipulando o histórico com responsabilidade (Git avançado)
+### PRÁTICA (2):
+
+Vamos simular um cenário profissional onde diferentes funcionalidades são desenvolvidas em branches separadas, integradas via pull request, com o uso consciente de git merge, git diff, resolução de conflitos simples e boas práticas com mensagens de commit.
+
+**Contexto:** você e um(a) colega estão desenvolvendo um site institucional. O repositório principal está hospedado no GitHub. Você criará uma branch para trabalhar na página de contato e sua colega criará uma branch para a página sobre nós. Ao final, vocês deverão unir tudo na branch principal (main), usando boas práticas colaborativas.
+
+**ETAPA 1 - Organização inicial**
+**(a)** Crie um novo repositório no GitHub.
+**(b)** Clone esse repositório em duas máquinas diferentes (ou duas pastas distintas, simulando dois devs).
+**(c)** Crie a estrutura inicial do site (ex: index.html, style.css) e suba para a branch main.
+
+**ETAPA 2 - Trabalho em branches separadas**
+**(d)** Em dupla, crie uma branch chamada **feature/contato** e a outra dupla cria a branch **feature/sobre-nos**.
+Ambos devem:
+**(e)** Criar seus respectivos arquivos HTML.
+**(f)** Fazer ao menos 2 commits com mensagens claras.
+**(g)** Usar git log --oneline para revisar o histórico.
+**(h)** Subir a branch para o GitHub com git push -u origin <nome-da-branch>.
+
+**ETAPA 3 - Integração no GitHub (Pull Request)**
+
+**(i)** Cada dupla abre um pull request no GitHub para a branch main.
+**(j)** A outra dupla faz a revisão do PR. 
+**(k)** Se não houver conflitos, aceita e faz o merge pelo GitHub.
+
+**ETAPA 4 - Simulando um conflito e resolvendo no VS Code**
+
+**(l)** Ambas duplas alteram a mesma linha no arquivo style.css, em suas branches locais.
+**(m)** Uma dupla faz merge com main.
+**(n)** A outra, ao tentar o merge, terá um conflito. Resolva o conflito com o editor de conflitos do VS Code.
+
+
+## ✅ Entregáveis
+
+* Prints do git log, tela de conflito no VS Code e merges.
+* Print da tela do GitHub com os pull requests e merges aprovados.
+* Uma apresentação explicando:
+  * Para que serve uma branch.
+  * Diferença entre merge automático e com conflito.
+  * Como o GitHub ajuda na integração entre times.
+  * Qual foi a principal vantagem de usar branches para dividir tarefas entre colegas?
+  * O que torna o uso de pull request mais seguro que apenas fazer git push direto na main?
+  * O que causou o conflito de merge e como você resolveu?
+  * Quais cuidados você tomaria numa equipe maior, com mais pessoas fazendo commits ao mesmo tempo?
+
+---
+### PRÁTICA (3): manipulando o histórico com responsabilidade (Git avançado)
 
 ### Você está trabalhando em um projeto de software junto com uma colega. Ambos utilizam o GitHub para manter o repositório sincronizado. Durante o desenvolvimento, ocorrem situações comuns no mundo real: múltiplos commits confusos, necessidade de aplicar hotfixes pontuais, troca de branch com trabalho em andamento, e conflito entre alterações locais e remotas. Sua missão será limpar o histórico, manter o projeto organizado e colaborar de forma segura, usando comandos poderosos do Git.
 
