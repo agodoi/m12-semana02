@@ -31,11 +31,11 @@ git config --global user.email "seu email"
 git config --global core.editor "path do executável do novo editor"
 ```
 
-## (2) Comandos do Git
+## (2) Comandos do Git / Linux
 
 | Comando                          | Descrição                                                                |
 |----------------------------------|--------------------------------------------------------------------------|
-| `pwd`                            | Mostra o diretório atual (onde você está no terminal).                   |
+| `pwd`                            | Mostra o diretório atual (onde você está no terminal). Print Working Directory |
 | `mkdir <nome>`                   | Cria uma nova pasta/diretório.                                           |
 | `touch <nome_do_arquivo>`        | Cria um novo arquivo vazio.                                              |
 | `cd /c`                          | Entra no disco C:\ (útil no Git Bash ou terminal Unix-like no Windows).  |
@@ -46,12 +46,12 @@ git config --global core.editor "path do executável do novo editor"
 | `git status`                     | Mostra o estado atual dos arquivos (modificados, staged, etc.).          |
 | `git add <arquivo>`              | Adiciona arquivos ao "staging area" (preparar para commit).              |
 | `git commit -m "mensagem"`       | Salva as mudanças com uma mensagem descritiva.                           |
-| `git push`                       | Envia os commits locais para o repositório remoto.                       |
-| `git pull`                       | Atualiza o repositório local com as mudanças do repositório remoto.      |
+| `git push`                       | Envia os commits locais para o repositório remoto. Empurra.              |
+| `git pull`                       | Atualiza o repositório local com as mudanças do repositório remoto. Puxa.|
 | `git pull origin <branch>`       | Atualiza o repositório local a partir de uma branch específica do remoto.|
 | `git pull --rebase`              | Atualiza e reaplica os commits locais sobre os commits remotos (histórico linear). |
-| `git fetch`                      | Equivale ao PULL, porém baixa as mudanças do repositório remoto sem aplicar ao seu diretório.    |
-| `git merge <branch>`             | Junta uma branch ao branch atual.                                        |
+| `git fetch`                      | Equivale ao PULL, porém baixa as mudanças do repositório remoto sem aplicar ao seu diretório. Traz.|
+| `git merge <branch>`             | Junta uma branch ao branch atual. Mesclar                                |
 | `git branch`                     | Lista as branches existentes no repositório.                             |
 | `git checkout <branch>`          | Muda para outra branch.                                                  |
 | `git log`                        | Mostra o histórico detalhado de commits.                                 |
@@ -64,11 +64,11 @@ git config --global core.editor "path do executável do novo editor"
 | `git reset --soft HEAD~1`        | Desfaz o último commit, mantendo as alterações no staging.               |
 | `git reset --hard HEAD~1`        | Desfaz o último commit e descarta as alterações.                         |
 | `git checkout HEAD~2`            | Acessa o estado do projeto como estava dois commits atrás.               |
-| `git stash`                      | Guarda temporariamente alterações não commitadas.                        |
+| `git stash`                      | Guarda temporariamente alterações não commitadas. Esconderijo.           |
 | `git stash apply`                | Aplica alterações salvas anteriormente com stash.                        |
 | `git stash pop`                  | Aplica e remove a alteração salva anteriormente com stash.               |
-| `git cherry-pick <commit_hash>`  | Aplica um commit específico em outra branch.                             |
-| `git blame <arquivo>`            | Mostra o responsável por cada linha de um arquivo.                       |
+| `git cherry-pick <commit_hash>`  | Aplica um commit específico em outra branch. Sereja do bolo.             |
+| `git blame <arquivo>`            | Mostra o responsável por cada linha de um arquivo. Culpa.                |
 | `git show <arquivo>`             | Exibe o conteúdo de um arquivo ou detalhes de um commit específico.      |
 
 
