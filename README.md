@@ -33,38 +33,6 @@ git config --global core.editor "path do executável do novo editor"
 
 ## (2) Comandos do Git
 
-| Comando                     | Descrição                                                                 |
-|----------------------------|---------------------------------------------------------------------------|
-| `pwd`                      | Mostra o diretório atual (onde você está no terminal).                    |
-| `mkdir <nome>`             | Cria uma nova pasta/diretório.                                           |
-| `touch <nome_do_arquivo>`  | Cria um novo arquivo vazio.                                              |
-| `cd /c`                    | Entra no disco C:\ (útil no Git Bash ou terminal Unix-like no Windows).  |
-| `ls`                       | Lista arquivos e diretórios do diretório atual.                          |
-| `ls -a`                    | Lista **todos** os arquivos, incluindo ocultos (ex: `.git`).             |
-| `git init`                 | Inicializa um novo repositório Git local.                                |
-| `git clone <url>`          | Clona um repositório remoto para o ambiente local.                       |
-| `git status`               | Mostra o estado atual dos arquivos (modificados, staged, etc.).          |
-| `git add <arquivo>`        | Adiciona arquivos ao "staging area" (preparar para commit).              |
-| `git commit -m "mensagem"` | Salva as mudanças com uma mensagem descritiva.                           |
-| `git push`                 | Envia os commits locais para o repositório remoto.                       |
-| `git pull`                 | Baixa o repositório remoto e atualiza o repositório local.               |
-| `git fetch`                | Equivale ao PULL, porém baixa as mudanças do repositório remoto sem aplicar ao seu diretório.    |
-| `git merge <branch>`       | Junta uma branch ao branch atual.                                        |
-| `git branch`               | Lista as branches existentes no repositório.                             |
-| `git checkout <branch>`    | Muda para outra branch.                                                  |
-| `git log`                  | Mostra o histórico de commits.                                           |
-| `git log --oneline`        | Exibe o histórico de commits em formato compacto e simplificado.         |
-| `git diff`                 | Mostra as diferenças entre arquivos modificados e os commits anteriores. |
-| `git remote -v`            | Lista os repositórios remotos vinculados ao projeto local.               |
-| `git config --global`      | Define configurações globais do Git (nome, e-mail, editor, etc.).        |
-| `git rebase -i HEAD~N`     | Edita interativamente os últimos N commits (squash, reorder, etc.).      |
-| `git reset --soft HEAD~1`  | Desfaz o último commit, mantendo as alterações no staging.               |
-| `git checkout HEAD~2`      | Acessa o estado do projeto como estava dois commits atrás.               |
-
-
-
-
-
 | Comando                          | Descrição                                                                |
 |----------------------------------|--------------------------------------------------------------------------|
 | `pwd`                            | Mostra o diretório atual (onde você está no terminal).                   |
