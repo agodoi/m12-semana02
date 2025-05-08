@@ -1,4 +1,4 @@
-Git e Github
+# Git e Github
 
 Esta instrução abordará tópicos essenciais para o domínio completo do Git e comandos avançados como stash, cherry-pick e bisect. Também explorará as diferenças entre rebase e merge, com foco na organização do histórico de commits e como aplicar rebase interativo para reordenar, mesclar, editar ou remover commits de forma eficaz. A resolução de conflitos será discutida detalhadamente, enfatizando boas práticas para manter a integridade do código durante operações complexas.
 
