@@ -63,7 +63,7 @@ git config --global core.editor "path do executável do novo editor"
 | `git stash`                      | Guarda temporariamente alterações não commitadas. Esconderijo.           |
 | `git stash apply`                | Aplica alterações salvas anteriormente com stash.                        |
 | `git stash pop`                  | Aplica e remove a alteração salva anteriormente com stash.               |
-| `git cherry-pick <commit_hash>`  | Aplica um commit específico em outra branch. Sereja do bolo.             |
+| `git cherry-pick <commit_hash>`  | Aplica um commit específico em outra branch. Cereja do bolo.             |
 | `git blame <arquivo>`            | Mostra o responsável por cada linha de um arquivo. Culpa.                |
 | `git show <arquivo>`             | Exibe o conteúdo de um arquivo ou detalhes de um commit específico.      |
 
